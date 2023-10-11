@@ -32,7 +32,7 @@ void draw() {
       }
        }
   }
- System.out.println(dieTotal);
+ //System.out.println(dieTotal);
  noStroke();
  fill (50,168,82);
  rect(0,400,500,50);
@@ -54,7 +54,7 @@ class Die {
 
 void roll() {
   rolled = (int)(Math.random()*6)+1;
-  System.out.println(rolled);
+  //System.out.println(rolled);
 }
 
 void show() {
